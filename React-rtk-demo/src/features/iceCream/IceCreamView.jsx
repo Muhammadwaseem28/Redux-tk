@@ -7,6 +7,7 @@ const IceCreamView = () => {
     const dispatch=useDispatch()
     return(
       <>
+      <h2>New features</h2>
       <h2>No of IceCreams : {noOfIceCreams} </h2>
       <button onClick={()=>dispatch(ordered())}>Order</button>
       <button onClick={()=>dispatch(restocked(3))}>Restock</button>
